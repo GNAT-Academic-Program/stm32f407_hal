@@ -9,9 +9,6 @@ licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
 website = "https://github.com/GNAT-Academic-Program/stm32f407_hal"
 tags = []
 
-[test]
-runner = "alire"
-
 [[depends-on]]
 light_tasking_stm32f407 = "*"
 hal = "*"
